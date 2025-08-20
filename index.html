@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House </title>
+    <link rel="stylesheet" href="style.css">
+    
     <!-- Tailwind cdm -->
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
        
@@ -11,7 +13,7 @@
          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
          integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="manrope-font">
    <!-- Banner section start here -->
     <div class="parent_div flex flex-col md:flex-row justify-between  min-h-[200px] max-w-[1250px] mx-auto">
         <div class=" left_div">
@@ -20,7 +22,7 @@ tea time at The  <br>
 Tea House</h1>
             <p class="text-[18px] my-10">Tea and Botanical Solutions Supplier Give Optimum <br>
                 Satisfaction To Your Taste Buds.</p>
-                <button class="w-[200px] h-[64px]  text-xl text-white rounded-lg  bg-gradient-to-r from-[#ff8938] to-[#ff0000] ">  <span>Explore More
+                <button class="w-[200px] h-[64px]  text-xl text-white rounded-lg  bg-gradient-to-r from-[#ff8938] to-[#ff0000] hover:cursor-pointer hover:via-blue-950 ">  <span>Explore More
                    </span>  <span> <i class="-rotate-45 fa-solid fa-arrow-right"></i></span>
                     
                 </button>
@@ -155,7 +157,7 @@ Tea House</h1>
         
                 <p class="mt-8 mb-5">Our clients are the true heroes of our journey. Their support 
                     and feedback inspire us to grow, innovate, and keep delivering the best. </p>
-                    <button class="w-[139px] h-[56px] bg-white text-xl font-bold text-[#ff8938] rounded-lg">
+                    <button class="w-[139px] h-[56px] bg-white text-xl font-bold text-[#ff8938] rounded-lg hover:cursor-pointer hover:bg-blue-200">
                         Show All
                     </button>
                         
@@ -215,10 +217,113 @@ Tea House</h1>
 
                     
                 </div>
+             
+        
             
 
                 
              </div>
+              <!-- News and event Section -->
+                 <!-- News and event Section -->
+<div class="max-w-[1250px] mx-auto mt-[100px]">
+  <h1 class="mb-4 text-5xl font-bold text-center">News & Events</h1>
+  <p class="mb-10 text-center text-gray-500">
+   Stay informed with the latest updates and upcoming events
+  </p>
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+    <!-- Card 1 -->
+    <div class="flex flex-col p-5 bg-white shadow rounded-xl">
+      <img src="Image/news-1.png" class="mb-4 rounded-lg" alt="News 1">
+      <p class="mb-2 text-sm text-gray-400">Feb 05, 2027</p>
+      <h3 class="mb-2 text-xl font-bold">Collecting 8 points for discount</h3>
+      <p class="mb-4 text-sm text-black">
+     Stay refreshed with the latest news and events from our green tea community. From new blends to wellness tips, there’s always something brewing
+      </p>
+      <a href="#" class="text-[#ff8938] font-bold text-sm mt-auto">Learn More</a>
+    </div>
+    <!-- Card 2 -->
+    <div class="flex flex-col p-5 bg-white shadow rounded-xl">
+      <img src="Image/news-2.png" class="mb-4 rounded-lg" alt="News 2">
+      <p class="mb-2 text-sm text-gray-400">Feb 05, 2027</p>
+      <h3 class="mb-2 text-xl font-bold">Collecting 8 points for discount</h3>
+      <p class="mb-4 text-sm text-black">
+ Discover upcoming events, tea-tasting sessions, and the latest updates on our premium green tea collections
+      </p>
+      <a href="#" class="text-[#ff8938] font-bold text-sm mt-auto">Learn More</a>
+    </div>
+    <!-- Card 3 -->
+    <div class="flex flex-col p-5 bg-white shadow rounded-xl">
+      <img src="Image/news-3.png" class="mb-4 rounded-lg" alt="News 3">
+      <p class="mb-2 text-sm text-gray-400">Feb 05, 2027</p>
+      <h3 class="mb-2 text-xl font-bold">Collecting 8 points for discount</h3>
+      <p class="mb-4 text-sm text-black">
+      Every cup we serve is a story of trust, quality, and the love of our clients
+      </p>
+      <a href="#" class="text-[#ff8938] font-bold text-sm mt-auto">Learn More</a>
+    </div>
+  </div>
+</div>
+             <!-- Footer section -->
+              <div class="bg-[#ffe7e6] py-[50px] mt-[100px]">
+             
+                <div class=" footer-parent mt-[100px] max-w-[1250px] mx-auto  ">
+                <div class="flex flex-col items-center justify-between text-center md:flex-row md:text-center ">
+                   
+              
+                <img src="Image/cup.png">
+                   <div  class="flex items-center">
+                    <p class="mr-4">
+                        Ready to Get Started
+                    </p>
+                    <button class="p-3 rounded-lg  bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-white font-semibold hover:cursor-pointer hover:via-blue-950">
+                        Get Started
+                    </button>
+                      </div>
+                    
+                   </div> 
+                  
+                   <div class="flex justify-between  0 mt-[50px]">
+                       <!-- 1st -->
+                    <div class="">
+                        <p class="text-lg font-semibold">Quick Link</p>
+                        <p  class="mt-2"> Home</p>
+                         <p class="mt-2">About US </p>
+                         <p class="mt-2">Insurance</p>
+                          <p class="mt-2"></p> Privacy Policy</p>
+                      </div>
+                      <!-- 2nd -->
+                   <div class="">
+                     <p class="text-lg font-semibold ">
+                        Our Services</p>
+                         <p class="mt-2"></p>Car Insurance</p>
+                          <p class="mt-2"></p>Health</p>
+                           <p class="mt-2"></p>House</p>
+                </div>
+                <!-- 3rd -->
+                   <div class="">
+                     <p class="text-lg font-semibold">Help</p>
+                      <p class="mt-2"></p>FAQs</p>
+                       <p class="mt-2"></p>Contract US</p>
+                </div>
+                   <div class="">
+                     <p class="text-xl font-semibold"> Subscribe to out <br> News Letter
+                    
+                   </p>
+                   <input type="text" placeholder="Email Address" class="pb-2 mt-5 outline-none border-b-1">
+                   <button class="border-2 h-[25px] w-[25px] rounded-full  bg-gradient-to-r from-[#ff8938] to-[#ff0000]"> ></button> 
+                   <div class="mt-5">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    
+                   </div>
+                   
+                </div>
+                 </div>
+                 <p class="text-center mt-[50px]">© 2027 UIDesign.to - All rights reserved. </p>
+                 </div>
+              </div>
+              
        
        
      
